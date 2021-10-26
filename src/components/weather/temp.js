@@ -16,7 +16,7 @@ const Temp = () => {
 
       const { temp, humidity, pressure } = data.main;
       console.log(data.main)
-       const { main: weathermood } = data.weather[0]; /*name alia */
+       const { main: weathermood } = data.weather[0]; /*name alias */
       const { name } = data;  /*city name direct */
       const { speed } = data.wind;
       const { country, sunset } = data.sys;
